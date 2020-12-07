@@ -65,8 +65,9 @@ Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)</br>
 [+] Created FVEK file 'fvek.bin' for use with dislocker</br>
 
 </br>
-
-Here we are...! @giggi0x000
+Now you can decrypt the full harddisk with the FVEK.
+</br>
+@giggi0x000
 
 
 
