@@ -1,4 +1,4 @@
-Bootloader and TPM speaks using different protocol such as LPC, SPI, I2C let's see how it works using SPI.
+Bootloader and TPM communicate using different protocol such as LPC, SPI, I2C. Let's see how it works using SPI.
 
 This project was ispired by  : https://pulsesecurity.co.nz/articles/TPM-sniffing. Thanks!
 
