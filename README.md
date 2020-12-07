@@ -36,11 +36,10 @@ Starting from the VMK header is “2C 00  00  00  01   00   00    00   03  20   
 </br>
 ![alt text](https://github.com/giggi0x00/Bitlocker-SPI-TPM-Key-sniffing/blob/main/2020-12-07_20-46.png?raw=true)
 </br>
-
-Read 32 bytes and you will get the key.
-Now you are ready to decrypt the harddisk. 
-Mount it and use:</br>
-sudo dislocker-metadata -V /dev/sda2 > dislocker-metadata.txt </br>
+</br>
+Read 32 bytes and you will get the key.</br>
+Now you are ready to decrypt the harddisk. </br>
+Mount it and run: sudo dislocker-metadata -V /dev/sda2 > dislocker-metadata.txt </br>
 then: </br>
 python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin where vmk.bin is the key extracted from the bus.
 </br>
