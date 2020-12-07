@@ -2,7 +2,7 @@ Bootloader and TPM Communicate using different protocols such as lpc, spi, I2C. 
 
 This project was ispired by  : https://pulsesecurity.co.nz/articles/TPM-sniffing. Thanks!
 
-The SPI protocol is based on 4 signals, SPI CLK, SPI MISO, SPI MOSI and SPI CS. The data goes in and out using MISO and MOSI and the slave is selected by pulling down the signal SPI CS.
+The SPI protocol is based on 4 signals, SPI CLK, SPI MISO, SPI MOSI and SPI CS. The dataes go in and out using MISO and MOSI and the slave is selected by pulling down the signal SPI CS.
 
 SPI CS   <--------> SPI CS <br/>
 SPI MOSI ---------> SPI MOSI<br/>
