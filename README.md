@@ -67,8 +67,7 @@ Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)</br>
 </br>
 Now you can decrypt the full harddisk with the FVEK.
 </br>
-@giggi0x000
-
+@giggi0x00
 
 
 
