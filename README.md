@@ -45,27 +45,33 @@ then: </br>
 python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin where vmk.bin is the key extracted from the bus.
 </br>
 
-$ python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin
- 
+$ python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin </br>
+
+</br> 
   ___ _ _   _            _             _____   _____ _  __  ___                       _  
  | _ |_) |_| |   ___  __| |_____ _ _  | __\ \ / / __| |/ / |   \ ___ __ _ _ _  _ _ __| |_
  | _ \ |  _| |__/ _ \/ _| / / -_) '_| | _| \ V /| _|| ' <  | |) / -_) _| '_| || | '_ \  _|
  |___/_|\__|____\___/\__|_\_\___|_|   |_|   \_/ |___|_|\_\ |___/\___\__|_|  \_, | .__/\__|
                                                                             |__/|_|      
-BitLocker FVEK Decrypt v0.2 by Matthias Deeg - SySS GmbH
-Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)
+
+</br>
+
+
+BitLocker FVEK Decrypt v0.2 by Matthias Deeg - SySS GmbH</br>
+
+Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)</br>
 ---
-[+] Extracted nonce:
-    409b87a369dbd501d9010000
-[+] Extracted MAC:
-    12c7b1c759e76ad88c3efd451a0fc945
-[+] Extracted payload:
-    fd82fcf27ded951a2327e2e9d00b9ba0a3245f949bc53163bcc26088531215d17be6f99794d3fcfeb22bb41e
-[+] Decrypted Full Volume Encryption Key (FVEK):
-    561bd26ca61fa3fb3445994b0f62649ce86e90085c0ff25dda57be61c2667cb6
-[+] Created FVEK file 'fvek.bin' for use with dislocker
+[+] Extracted nonce: </br>
+    409b87a369dbd501d9010000 </br>
+[+] Extracted MAC: </br>
+    12c7b1c759e76ad88c3efd451a0fc945 </br>
+[+] Extracted payload:</br>
+    fd82fcf27ded951a2327e2e9d00b9ba0a3245f949bc53163bcc26088531215d17be6f99794d3fcfeb22bb41e</br>
+[+] Decrypted Full Volume Encryption Key (FVEK):</br>
+    561bd26ca61fa3fb3445994b0f62649ce86e90085c0ff25dda57be61c2667cb6</br>
+[+] Created FVEK file 'fvek.bin' for use with dislocker</br>
 
-
+</br>
 
 Here we are...! @giggi0x000
 
