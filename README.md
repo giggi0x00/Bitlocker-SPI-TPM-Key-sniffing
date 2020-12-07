@@ -30,7 +30,7 @@ Then solder some wire to the relative pins and start sniffing using a Logical An
 </br>
 
 
-The command used by the bootloader to read back the VMK is "80h" from the address "0024h" TPM_DATA_FIFO_0, so what we have to do in order to get the key is looking a these specific command and address.
+The command used by the bootloader to read back the VMK is "80h" from the address "0024h" TPM_DATA_FIFO_0, What we need to do to get the key is to look at this specific command and address.
 </br>
 Starting from the VMK header is “2C 00  00  00  01   00   00    00   03  20   00  00" and write down 32 bytes.
 </br>
