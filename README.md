@@ -48,15 +48,8 @@ python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin where vmk.
 $ python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin </br>
 
 </br> 
-  ___ _ _   _            _             _____   _____ _  __  ___                       _  
- | _ |_) |_| |   ___  __| |_____ _ _  | __\ \ / / __| |/ / |   \ ___ __ _ _ _  _ _ __| |_
- | _ \ |  _| |__/ _ \/ _| / / -_) '_| | _| \ V /| _|| ' <  | |) / -_) _| '_| || | '_ \  _|
- |___/_|\__|____\___/\__|_\_\___|_|   |_|   \_/ |___|_|\_\ |___/\___\__|_|  \_, | .__/\__|
-                                                                            |__/|_|      
-
+https://github.com/SySS-Research/icestick-lpc-tpm-sniffer/blob/master/README.md
 </br>
-
-
 BitLocker FVEK Decrypt v0.2 by Matthias Deeg - SySS GmbH</br>
 
 Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)</br>
