@@ -44,7 +44,7 @@ sudo dislocker-metadata -V /dev/sda2 > dislocker-metadata.txt </br>
 then: </br>
 python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin where vmk.bin is the key extracted from the bus.
 </br>
- 
+
 $ python bitlocker_fvek_decrypt.py -f dislocker-metadata.txt -k vmk.bin
  
   ___ _ _   _            _             _____   _____ _  __  ___                       _  
@@ -64,6 +64,8 @@ Decrypts encrypted BitLocker Full Volume Encryption Keys (FVEK)
 [+] Decrypted Full Volume Encryption Key (FVEK):
     561bd26ca61fa3fb3445994b0f62649ce86e90085c0ff25dda57be61c2667cb6
 [+] Created FVEK file 'fvek.bin' for use with dislocker
+
+
 
 Here we are...! @giggi0x000
 
