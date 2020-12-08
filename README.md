@@ -32,7 +32,7 @@ Then solder some wire to the relative pins and start sniffing using a Logical An
 
 The command used by the bootloader to read back the VMK is "80h" from the address "0024h" TPM_DATA_FIFO_0, What we need to do to get the key is to look at this specific command and address.
 </br>
-Starting from the VMK header is “2C 00  00  00  01   00   00    00   03  20   00  00" and write down 32 bytes.
+Start from the VMK header “2C 00  00  00  01   00   00    00   03  20   00  00" and write down 32 bytes.
 </br>
 ![alt text](https://github.com/giggi0x00/Bitlocker-SPI-TPM-Key-sniffing/blob/main/2020-12-07_20-46.png?raw=true)
 </br>
