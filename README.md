@@ -1,3 +1,4 @@
+TPM KEY SNIFFING.
 Bootloader and TPM Communicate use different protocols such as lpc, spi, I2C. Let's see how it works when communication takes place via SPI protocol.
 
 This project was ispired by  : https://pulsesecurity.co.nz/articles/TPM-sniffing. Thanks!
